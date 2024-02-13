@@ -109,3 +109,74 @@ body {
     font-size: 15px;
     font-weight: 700;
   }
+
+.about{
+  color: #fff;
+  position: relative;
+  background: url(/about-bg.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.kartica-naslov{
+  color: black;
+  font-weight: bold;
+  font-size: 0.8cm;
+}
+.kartica-text{
+  color: rgb(65, 65, 65);
+  font-weight: bolder;
+  font-size: 0.4cm;
+}
+
+.naslov{
+  text-align: center;
+  font-weight: bolder;
+  font-size: 22px;
+}
+
+.text {
+  font-size: 18px;
+  text-align: center;
+}
+.kartica{
+  display: inline-table;
+  margin: 10px;
+  background: var(--white);
+  padding: 20px;
+  width: 300px;
+  height: 200px;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px hsla(0, 0%, 0%, 0.1);
+}
+
+.kartica-ikona{
+  color: var(--bittersweet);
+  font-size: 45px;
+  width: max-content;
+  margin-inline: auto;
+  margin-bottom: 15px;
+}
+.about-footer{
+  display: inline-table;
+  padding: 20px;
+}
+
+.footer-banner img{
+  margin-top: 20px;
+  float: left;
+}
+
+.footnaslov{
+  font-size: 0.7cm;
+  font-weight: bolder;
+  margin-top: 7rem;
+}
+
+.foottext{
+  font-size: 0.5cm;
+  font-weight: bolder;
+}
+
