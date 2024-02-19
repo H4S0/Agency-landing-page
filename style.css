@@ -149,7 +149,7 @@ html{
 .about{
   color: #fff;
   position: relative;
-  background: url(/about-bg.png) no-repeat;
+  background: url(slike/about-bg.png) no-repeat;
   background-position: center;
   background-size: cover;
   padding-top: 20px;
