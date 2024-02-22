@@ -216,3 +216,15 @@ html{
   font-weight: bold;
 }
 
+.naslov1 h1{
+  margin-top: 5rem;
+  font-size: 0.9cm;
+  text-align: center;
+  color: rgb(22, 32, 90);
+}
+
+.naslov1 p{
+  text-align: center;
+  font-size: 0.5cm;
+  color: rgba(3, 3, 3, 0.6);
+}
