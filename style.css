@@ -228,3 +228,21 @@ html{
   font-size: 0.5cm;
   color: rgba(3, 3, 3, 0.6);
 }
+
+.minsection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.content {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 100px;
+}
+
+img {
+  margin-right: 20px; 
+  max-width: 100%;
+}
