@@ -384,3 +384,87 @@ img {
 .trial .btn-secondary:hover{
   opacity: 0.7;
 }
+
+.naslov5{
+  text-align: center;
+  font-weight: bold;
+  font-size: 0.6cm;
+  color: rgb(22, 32, 90);
+}
+
+.contact {
+  padding: 50px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-column {
+  flex: 1;
+  text-align: center;
+}
+
+.right-column {
+  flex: 1;
+  padding-left: 50px;
+}
+
+.slika {
+  width: 100%;
+  max-width: 300px;
+}
+
+.contact-form {
+  width: 100%;
+}
+
+.input-wrap {
+  margin-bottom: 20px;
+}
+
+.input-label {
+  color: black;
+  font-weight: bold;
+}
+
+.input-field {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid var(--platinum);
+  padding: 7px 0;
+  font-size: var(--fs-6);
+  width: 100%;
+}
+
+.input-field::placeholder {
+  color: rgba(3, 3, 3, 0.6);
+  font-weight: 500;
+}
+
+.contact-form button {
+  color: #fff;
+  background-color: rgb(226, 72, 72);
+  border: none;
+  border-radius: 5px;
+  padding: 20px;
+  font-weight: bold;
+  opacity: 0.9;
+  transition: opacity 0.1s;
+}
+
+.contact-form button:hover {
+  opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .right-column {
+    padding-left: 0;
+  }
+}
