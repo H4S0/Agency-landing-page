@@ -297,6 +297,20 @@ img {
   flex-grow: 1;
 }
 
+.text1 h1{
+  margin-bottom: 10px; 
+  margin-top: 60px;
+  color: rgb(22, 32, 90);
+  text-align: start;
+  font-size: 0.9cm;
+}
+
+.text1 p{
+  color: rgba(3, 3, 3, 0.6);
+  font-size: 0.6cm;
+  
+}
+
 @media (max-width: 768px) {
   .content1 {
       flex-direction: column;
