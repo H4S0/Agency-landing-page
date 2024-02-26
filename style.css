@@ -469,3 +469,31 @@ img {
     padding-left: 0;
   }
 }
+
+.footer-top {
+  display: flex;
+}
+
+.container00 ul{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 15rem;
+}
+
+.container00 ul li{
+  text-decoration: none;
+  list-style: none;
+  margin-left: 15px;
+}
+
+.social-link{
+  font-size: 0.7cm;
+}
+
+.logos {
+  margin-left: 19rem; 
+}
+
+.footer-text {
+  float: right;
+}
