@@ -470,6 +470,10 @@ img {
   }
 }
 
+footer{
+  background-color: #f7f7f7;
+}
+
 .footer-top {
   display: flex;
   flex-wrap: wrap;
@@ -496,15 +500,18 @@ img {
 
 .social-link {
   font-size: 0.7cm;
+  color: #888888;
+  transition: color 0.1s ease-in;
+}
+.social-link:hover{
   color: rgb(226, 72, 72);
 }
-
 .logos {
   margin-right: auto;
 }
 
 .footer-text {
-  margin-right: auto;
+  color: #888888;
 }
 
 .footer-link-box {
